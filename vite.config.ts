@@ -13,7 +13,6 @@ export default defineConfig({
         alias: {
             "~/": resolve(__dirname, "./src"),
 
-            "@middlewares": resolve(__dirname, "./src/middlewares"),
             "@models": resolve(__dirname, "./src/models"),
             "@services": resolve(__dirname, "./src/services"),
             "@useCases": resolve(__dirname, "./src/useCases"),
@@ -26,6 +25,7 @@ export default defineConfig({
         pages({
             extensions: ["vue", "md"],
             importMode: "async",
+            exclude: ["**/components/*.vue"]
         }),
 
         markdown(),

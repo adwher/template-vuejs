@@ -9,7 +9,6 @@
         "baseUrl": "./src",
         "paths": {
             "~/*": ["./"],
-            "@middlewares/*": ["./middlewares/*"],
             "@models/*": ["./models/*"],
             "@services/*": ["./services/*"],
             "@useCases/*": ["./useCases/*"]
