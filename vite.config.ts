@@ -4,7 +4,6 @@ import { resolve } from "path"
 // plugins
 
 import vue from "@vitejs/plugin-vue"
-import pages from "vite-plugin-pages"
 import markdown from "vite-plugin-md"
 import components from "vite-plugin-components"
 
@@ -20,19 +19,20 @@ export default defineConfig({
     },
 
     plugins: [
-        vue({ include: [/\.vue$/, /\.md$/] }),
-
-        pages({
-            extensions: ["vue", "md"],
-            importMode: "async",
-            exclude: ["**/components/*.vue"]
+        vue({
+            include: [/\.vue$/, /\.md$/],
+            template: {
+                compilerOptions: {
+                    isCustomElement: tag => tag === "feather-icon"
+                }
+            }
         }),
 
         markdown(),
 
         components({
             extensions: ["vue"],
-            dirs: ["src/components", "src/layouts"]
+            dirs: ["src/components", "src/layouts"],
         })
     ]
 })
