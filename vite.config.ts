@@ -15,6 +15,7 @@ export default defineConfig({
             "@models": resolve(__dirname, "./src/models"),
             "@services": resolve(__dirname, "./src/services"),
             "@useCases": resolve(__dirname, "./src/useCases"),
+            "@layouts": resolve(__dirname, "./src/layouts"),
         }
     },
 
@@ -32,7 +33,7 @@ export default defineConfig({
 
         components({
             extensions: ["vue"],
-            dirs: ["src/components", "src/layouts"],
+            dirs: ["src/components"],
         })
     ]
 })

@@ -11,7 +11,8 @@
             "~/*": ["./"],
             "@models/*": ["./models/*"],
             "@services/*": ["./services/*"],
-            "@useCases/*": ["./useCases/*"]
+            "@useCases/*": ["./useCases/*"],
+            "@layouts/*": ["./layouts/*"]
         },
         "lib": ["DOM", "ESNext"]
     }
