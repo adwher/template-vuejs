@@ -9,10 +9,11 @@
         "baseUrl": "./src",
         "paths": {
             "~/*": ["./"],
+            "@components/*": ["./components/*"],
+            "@layouts/*": ["./layouts/*"],
             "@models/*": ["./models/*"],
             "@services/*": ["./services/*"],
-            "@useCases/*": ["./useCases/*"],
-            "@layouts/*": ["./layouts/*"]
+            "@useCases/*": ["./useCases/*"]
         },
         "lib": ["DOM", "ESNext"]
     }
