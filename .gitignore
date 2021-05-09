@@ -1,5 +1,14 @@
+# npm
+
 node_modules
-.env
-.env.*
-.vercel
 .log
+
+# env
+
+.env.local
+.env.*.local
+
+# dist
+
+dist
+.vercel

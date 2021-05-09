@@ -7,6 +7,11 @@ const routes: RouteRecordRaw[] = [
         path: "/",
         component: () => import("./pages/index.vue")
     },
+
+    {
+        path: "/playground",
+        component: () => import("./pages/playground.vue")
+    },
     
     {
         path: "/:error(.*)",

@@ -4,6 +4,8 @@ import { resolve } from "path"
 // plugins
 
 import vue from "@vitejs/plugin-vue"
+import markdown from "vite-plugin-md"
+import jsx from "@vitejs/plugin-vue-jsx"
 
 export default defineConfig({
     resolve: {
@@ -26,6 +28,10 @@ export default defineConfig({
                     isCustomElement: tag => tag === "feather-icon"
                 }
             }
-        })
+        }),
+
+        jsx(),
+
+        markdown()
     ]
 })
