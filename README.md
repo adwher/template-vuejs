@@ -13,6 +13,41 @@ It's a Vitejs template with the minimal utilities what you need to start a proje
 - 🤖 Typescript is the law.
 - 📁 Folder structure, ready to use.
 
+## Try it
+
+### GitHub template
+
+Create a repo [from this template](https://github.com/adwher/template-vitejs/generate) on GitHub.
+
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit adwher/template-vitejs my-awesome-app
+cd my-awesome-app
+
+npm i
+```
+
 ## Usage
 
-Start the [development server](https://vitejs.dev) using the `npm run dev` command. To build the project use the `npm run build` and go to `dist` folder.
+### Development
+
+Start the [development server](https://vitejs.dev) use the follow command.
+
+```bash
+npm run build
+```
+
+> To see more information, you should read the [Vite documentation](https://vitejs.dev/guide/#command-line-interface).
+
+### Build
+
+To generate the bundle folder, use the follow command.
+
+```bash
+npm run build
+```
+
+Finally, you can go to `dist` folder and see all the stuff ready to publish.
