@@ -1,6 +1,6 @@
 <template>
-    <main class="content-sm gap-bg text-center flex-centered">
-        <img class="height-sm" src="/vitejs.svg" alt="Vitejs Logo">
+    <main class="content-1 gap-bg text-center flex-centered">
+        <img class="height-2" src="/vitejs.svg" alt="Vitejs Logo">
 
         <h1>Error</h1>
 

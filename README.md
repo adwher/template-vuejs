@@ -1,6 +1,6 @@
-# template-vitejs
+# template-vuejs
 
-It's a Vitejs template with the minimal utilities what you need to start a project with [Vue 3](https://v3.vuejs.org), [TypeScript](https://www.typescriptlang.org) and some many things to recharge your development. You could clone this repository or use the template at [https://github.com/adwher/template-vitejs](https://github.com/adwher/template-vitejs) and use the directory structure who's ready to use and adapt ur idea.
+It's a Vitejs template with the minimal utilities what you need to start a project with [Vue 3](https://v3.vuejs.org), [TypeScript](https://www.typescriptlang.org) and some many things to recharge your development. You could clone this repository or use the template at [https://github.com/adwher/template-vuejs](https://github.com/adwher/template-vuejs) and use the directory structure who's ready to use and adapt ur idea.
 
 ## Features
 
@@ -17,14 +17,14 @@ It's a Vitejs template with the minimal utilities what you need to start a proje
 
 ### GitHub template
 
-Create a repo [from this template](https://github.com/adwher/template-vitejs/generate) on GitHub.
+Create a repo [from this template](https://github.com/adwher/template-vuejs/generate) on GitHubs.
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit adwher/template-vitejs my-awesome-app
+npx degit adwher/template-vuejs my-awesome-app
 cd my-awesome-app
 
 npm i
