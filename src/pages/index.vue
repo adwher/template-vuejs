@@ -6,7 +6,7 @@
 
         <p>Welcome to the Vite.js template by <a href="https://github.com/adwher" target="_blank" rel="noopener">@adwher</a>. Let's this project begin at <code>src/main.ts</code> and start to make awesome things.</p>
 
-        <div class="wrapper show">
+        <div class="wrapper">
             <a class="button" href="https://github.com/adwher/template-vuejs" target="_blank" rel="noopener">
                 <feather-icon name="github"></feather-icon>
                 <span>Go to GitHub</span>

@@ -1,15 +1,21 @@
 // VUE
 
 declare module "*.vue" {
-    import { defineComponent } from "vue"
+    import { DefineComponent } from "vue"
 
-    const component: ReturnType<typeof defineComponent>
+    const component: DefineComponent
     export default component
 }
 
 // MARKDOWN
 
 declare module "*.md"
+
+// STYLES
+
+declare module "*.css"
+declare module "*.sass"
+declare module "*.scss"
 
 // VITEJS
 
