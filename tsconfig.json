@@ -13,7 +13,7 @@
             "@layouts/*": ["./layouts/*"],
             "@models/*": ["./models/*"],
             "@services/*": ["./services/*"],
-            "@useCases/*": ["./useCases/*"]
+            "@usecases/*": ["./usecases/*"]
         },
         "lib": ["DOM", "ESNext"]
     }

@@ -15,7 +15,7 @@ export default defineConfig({
             "@components": resolve(__dirname, "./src/components"),
             "@models": resolve(__dirname, "./src/models"),
             "@services": resolve(__dirname, "./src/services"),
-            "@useCases": resolve(__dirname, "./src/useCases"),
+            "@usecases": resolve(__dirname, "./src/usecases"),
             "@layouts": resolve(__dirname, "./src/layouts"),
         }
     },

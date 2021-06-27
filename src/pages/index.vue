@@ -1,5 +1,5 @@
 <template>
-    <main class="content-1 gap-2 text-center flex-centered">
+    <main class="content-1 flex-view gap-2 text-center flex-centered">
         <img class="height-2" src="/vitejs.svg" alt="Vitejs Logo">
 
         <h1>Hello world</h1>
