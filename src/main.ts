@@ -4,12 +4,12 @@ import "./style/index.scss"
 
 // VUE
 
-import view from "./app.vue"
+import AppView from "./app.vue"
 
 import { createApp } from "vue"
 import { router } from "./router"
 
-const app = createApp(view)
+const app = createApp(AppView)
 
 app.use(router)
 

@@ -8,10 +8,12 @@
         "resolveJsonModule": true,
         "baseUrl": "./src",
         "paths": {
-            "~/*": ["./"],
+            "~/*": ["./*"],
             "@components/*": ["./components/*"],
+            "@hooks/*": ["./hooks/*"],
             "@layouts/*": ["./layouts/*"],
             "@models/*": ["./models/*"],
+            "@pages/*": ["./pages/*"],
             "@services/*": ["./services/*"],
             "@usecases/*": ["./usecases/*"]
         },

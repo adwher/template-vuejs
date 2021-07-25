@@ -10,13 +10,15 @@ import jsx from "@vitejs/plugin-vue-jsx"
 export default defineConfig({
     resolve: {
         alias: {
-            "~/": resolve(__dirname, "./src"),
+            "~": resolve(__dirname, "./src"),
 
             "@components": resolve(__dirname, "./src/components"),
+            "@hooks": resolve(__dirname, "./src/hooks"),
+            "@layouts": resolve(__dirname, "./src/layouts"),
             "@models": resolve(__dirname, "./src/models"),
+            "@pages": resolve(__dirname, "./src/pages"),
             "@services": resolve(__dirname, "./src/services"),
             "@usecases": resolve(__dirname, "./src/usecases"),
-            "@layouts": resolve(__dirname, "./src/layouts"),
         }
     },
 

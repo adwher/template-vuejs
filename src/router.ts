@@ -5,12 +5,12 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router"
 const routes: RouteRecordRaw[] = [
     {
         path: "/",
-        component: () => import("./pages/index.vue")
+        component: () => import("@pages/index.vue"),
     },
     
     {
         path: "/:error(.*)",
-        component: () => import("./pages/error.vue")
+        component: () => import("@pages/error.vue")
     }
 ]
 
