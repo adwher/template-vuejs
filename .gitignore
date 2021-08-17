@@ -12,3 +12,7 @@ node_modules
 
 dist
 .vercel
+
+# dev
+
+.DS_Store

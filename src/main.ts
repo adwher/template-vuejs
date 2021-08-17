@@ -1,16 +1,15 @@
 // STYLE
 
-import "./style/index.scss"
+import "./styles/index.scss"
 
 // VUE
-
-import AppView from "./app.vue"
 
 import { createApp } from "vue"
 import { router } from "./router"
 
-const app = createApp(AppView)
+import View from "./app.vue"
+
+const app = createApp(View)
 
 app.use(router)
-
 app.mount("#app")
